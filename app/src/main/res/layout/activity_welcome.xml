@@ -10,14 +10,14 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintVertical_bias="0.35"
         app:srcCompat="@drawable/img_girl" />
 
     <RelativeLayout
@@ -43,25 +43,27 @@
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="59dp"
+            android:layout_width="69dp"
             android:layout_height="9dp"
             android:layout_below="@+id/textView"
             android:layout_alignParentStart="true"
             android:layout_marginStart="150dp"
             android:layout_marginTop="18dp"
             app:srcCompat="@drawable/slider_blue" />
+
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="59dp"
             android:layout_height="9dp"
             android:layout_below="@+id/textView"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="150dp"
             android:layout_marginTop="18dp"
+            android:layout_marginEnd="150dp"
+            android:layout_toEndOf="@+id/imageView6"
             app:srcCompat="@drawable/slider_white" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageView6"
