@@ -125,6 +125,7 @@
             android:layout_alignParentTop="true"/>
 
         <TextView
+            android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -132,16 +133,18 @@
             android:text="or"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/right_line"
             android:layout_width="150dp"
             android:layout_height="2dp"
-            android:background="@color/white"
-            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"/>
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:background="@color/white" />
     </RelativeLayout>
 
     <Button
