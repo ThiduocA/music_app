@@ -66,6 +66,7 @@
             android:layout_marginTop="15dp"/>
 
         <EditText
+            android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -73,6 +74,7 @@
             android:layout_toEndOf="@+id/imageView13"
             android:hint="Email"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:textSize="16sp"/>
     </RelativeLayout>
     <RelativeLayout
@@ -100,6 +102,7 @@
             android:layout_marginTop="15dp"/>
 
         <EditText
+            android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -107,7 +110,9 @@
             android:layout_toEndOf="@+id/imageView14"
             android:hint="Password"
             android:textColorHint="@color/white"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:inputType="textPassword"/>
     </RelativeLayout>
 
     <RelativeLayout
