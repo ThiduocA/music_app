@@ -5,7 +5,9 @@
     <color name="blue">#41C3D6</color>
     <color name="s_blue">#00C2CB</color>
     <color name="b_blue">#06A0B5</color>
-    <color name="black_background">#1E1E1E</color>
+    <color name="b_black">#1E1E1E</color>
     <color name="light_white">#DBE7E8</color>
     <color name="t_blue">#7CEEFF</color>
+    <color name="gray">#8A9A9D</color>
+    <color name="black_background">#121111</color>
 </resources>
